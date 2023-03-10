@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Inria+Sans:wght@300&family=Lato:ital,wght@0,400;1,300&display=swap');
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Comic Neue', sans-serif;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+@media (max-width: 767px){
+  body {
+    margin: 0 20px;
+  }
+}
