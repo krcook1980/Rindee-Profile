@@ -1,0 +1,158 @@
+
+/* Hero */
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 427px;
+  width: 100%;
+  background: url('../assets/portfolio/jaguarHome.jpg');
+  background-size: auto 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top 0 left 50%;
+}
+
+.imageTextWrapper {
+  text-align: center;
+  margin-right: 10%;
+  width: 530px;
+}
+
+.titleText {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+.subtext {
+  text-align: right;
+  font-size: 20px;
+}
+
+/* About */
+.contentWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 87px;
+  margin: 40px 50px 20px 0px;
+}
+
+.contentText {
+  font-size: 20px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+/* Links */
+.linksWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.links {
+  font-size: 24px;
+  color: #00a8a8;
+  text-align: center;
+}
+
+.linksImages {
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+
+.linksWebImage {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.logoLinksImage {
+  display: flex;
+  align-items: center;
+  width: 240px;
+  height: 220px;
+  overflow: hidden;
+  margin-bottom: 18px;
+  border-radius: 4px;
+}
+
+.otherLinksImage {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  margin-bottom: 18px;
+  border-radius: 4px;
+}
+
+@media (max-width: 920px){
+  .imageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+    width: 100%;
+    background: url('../assets/portfolio/jaguarHome.jpg');
+    background-size: 75%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 0 left 50%;
+  }
+
+  .imageTextWrapper {
+    text-align: center;
+    margin-right: 10%;
+    width: 50%;
+  }
+  
+  .titleText {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  .subtext {
+    text-align: right;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px){
+  .contentWrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: auto auto auto;
+    grid-gap: 87px;
+    margin-top: 40px;
+  }
+
+  .imageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+    width: 100%;
+    background: url('../assets/portfolio/jaguarHome.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 0 left 50%;
+  }
+
+  .imageTextWrapper {
+    text-align: center;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .subtext {
+    text-align: center;
+    font-size: 20px;
+  }
+}

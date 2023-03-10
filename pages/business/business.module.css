@@ -1,0 +1,66 @@
+.imageContainerB {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 457px;
+  width: 100%;
+  background: url('../../assets/portfolio/jaguarBusiness.jpg');
+
+  background-size: 100% auto;
+  background-repeat: no-repeat, no-repeat;
+  background-position: top -275px left 50%;
+}
+
+.businessContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+}
+.pageTitle{
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 36px;
+}
+
+.pageSubTitle {
+  margin-bottom: 12px;
+  font-size: 30px;
+}
+
+.cardColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.businessImage {
+  width: 80%;
+  margin-bottom: 24px;
+}
+
+.businessImageSm {
+  width: 40%;
+  margin-bottom: 24px;
+}
+
+.businessImageMd {
+  width: 60%;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 767px){
+  .imageContainerB {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+    width: 100%;
+    background: url('../../assets/portfolio/jaguarBusiness.jpg');
+  
+    background-size: 100% auto;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -100px left 50%;
+  }
+}
