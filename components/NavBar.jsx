@@ -10,7 +10,7 @@ import MobileMenu from './MobileMenu';
 
 export default function NavBar() {
   const router = useRouter();
-  const isMobile = useIsMobile();
+  const isMobile = useIsMobile(768);
   const [showMenu, setShowMenu] = useState(false);
   const [pathname] = useState(router.pathname);
   return (

@@ -58,7 +58,7 @@
   height: 50px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .navBar {
     display: flex;
     justify-content: space-between;

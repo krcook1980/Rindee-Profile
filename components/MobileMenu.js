@@ -1,10 +1,15 @@
 import React from 'react';
+
+import useClickOutside from '../hooks/useClickOutside';
+
 import closeIcon from '../assets/closeIcon.svg';
 import styles from './nav.module.css';
 
 export default function MobileMenu({ pathname, setShowMenu }) {
+  const { ref } = useClickOutside({ handleClick: () => (setShowMenu(false))});
+
   return (
-    <div className={styles.navMenuContainer}>
+    <div className={styles.navMenuContainer} ref={ref}>
       <div className={styles.mobileNavHeader}>
       <a href="/" className={styles.mobileTitle}>
         <p>Digital Jaguar Media</p>
