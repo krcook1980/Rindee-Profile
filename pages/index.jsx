@@ -16,7 +16,7 @@ export default function Home() {
         <div className={styles.imageTextWrapper}>
           {!isMobile ? (
             <>
-              <h2 className={styles.titleText}>Digital Jaguar Media</h2>
+              <h1 className={styles.titleText}>Digital Jaguar Media</h1>
               <p className={styles.subtext}>
                 Digital Jaguar Media is committed to delivering attractive, highly
                 functional designs based on UI/UX principles.
@@ -28,7 +28,7 @@ export default function Home() {
       <div className={styles.contentWrapper}>
         {isMobile ? (
           <>
-            <h2 className={styles.titleText}>Digital Jaguar Media</h2>
+            <h1 className={styles.titleText}>Digital Jaguar Media</h1>
             <p className={styles.subtext}>
               Digital Jaguar Media is committed to delivering attractive, highly
               functional designs based on UI/UX principles.
