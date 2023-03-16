@@ -30,9 +30,9 @@ export default function MobileMenu({ pathname, setShowMenu }) {
         <ul>
           <li className={styles.linkText}>
             <a
-              href="/business"
+              href="/websites/#atmosfire"
               className={
-                pathname === '/websites/#atmosfire'
+                pathname === '/websites#atmosfire'
                   ? styles.linkTextActive
                   : styles.linkText
               }
@@ -42,9 +42,9 @@ export default function MobileMenu({ pathname, setShowMenu }) {
           </li>
           <li className={styles.linkText}>
             <a
-              href="/business"
+              href="/websites/#innovative"
               className={
-                pathname === '/websites/#innovative'
+                pathname === '/websites#innovative'
                   ? styles.linkTextActive
                   : styles.linkText
               }
@@ -54,9 +54,9 @@ export default function MobileMenu({ pathname, setShowMenu }) {
           </li>
           <li className={styles.linkText}>
             <a
-              href="/business"
+              href="/websites/#peak"
               className={
-                pathname === '/websites/#peak' ? styles.linkTextActive : styles.linkText
+                pathname === '/websites#peak' ? styles.linkTextActive : styles.linkText
               }
             >
               Peak Fitness Star Valley
