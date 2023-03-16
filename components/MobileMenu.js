@@ -84,8 +84,8 @@ export default function MobileMenu({ pathname, setShowMenu }) {
         </li>
         <li className={styles.linkText}>
           <a
-            href="/other-designs"
-            className={pathname === '/contact' ? styles.linkTextActive : styles.linkText}
+            href="mailto:jaguar42222@gmail.com"
+            className={styles.linkText}
           >
             Contact Me
           </a>

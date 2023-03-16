@@ -4,7 +4,7 @@ import fire from '../../assets/portfolio/atmosfireHome.png';
 import fire1 from '../../assets/portfolio/atmosfireAbout.png';
 import inn from '../../assets/portfolio/innMain.svg';
 import inn1 from '../../assets/portfolio/inn1.svg';
-import peak from '../../assets/portfolio/peakHome.png';
+import peak from '../../assets/portfolio/finalPeak.png';
 import peak1 from '../../assets/portfolio/peakContact.png';
 import divider from '../../assets/divider.svg';
 
@@ -94,9 +94,9 @@ export default function Websites() {
           <div className={styles.projectWrapper} id="atmosfire">
             <div className={styles.projectMain}>
               <img
-                src={fire1.src}
+                src={fire.src}
                 alt="Atmosfire About Page"
-                className={styles.childImage}
+                className={styles.mainImage}
               />
             </div>
             <div className={styles.projectDetails}>

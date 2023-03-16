@@ -1,3 +1,4 @@
+import Footer from '../components/Footer/Footer';
 import NavBar from '../components/NavBar';
 import './app.css';
 
@@ -6,6 +7,7 @@ function Application({ Component, pageProps }) {
     <>
       <NavBar />
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 }

@@ -25,7 +25,7 @@ export default function OtherDesigns() {
         {isMobile ? (
           <img src={divider.src} className={styles.divider} alt="divider" />
         ) : (
-          '*All of these books can be found on Amazon*'
+          '*All of these books are published and available on Amazon.*'
         )}
       </div>
       <div className={styles.content}>

@@ -10,7 +10,7 @@ import MobileMenu from './MobileMenu';
 
 export default function NavBar() {
   const router = useRouter();
-  const isMobile = useIsMobile(768);
+  const isMobile = useIsMobile(820);
   const [showMenu, setShowMenu] = useState(false);
   const [pathname] = useState(router.pathname);
   return (
@@ -40,7 +40,7 @@ export default function NavBar() {
               <a
                 href="/websites"
                 className={
-                  pathname === '/Websites' ? styles.linkTextActive : styles.linkText
+                  pathname === '/websites' ? styles.linkTextActive : styles.linkText
                 }
               >
                 Websites

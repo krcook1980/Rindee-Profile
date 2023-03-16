@@ -9,7 +9,7 @@
 
   background-size: 100% auto;
   background-repeat: no-repeat, no-repeat;
-  background-position: top -150px left 50%;
+  background-position: top -350px left 50%;
 }
 
 .content {
@@ -82,7 +82,7 @@
     background: url('../../assets/portfolio/jaguarOther.jpg');  
     background-size: 100% auto;
     background-repeat: no-repeat, no-repeat;
-    background-position: top -100px left 50%;
+    background-position: top 0px left 50%;
   }
 }
 
