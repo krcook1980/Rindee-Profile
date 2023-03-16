@@ -19,7 +19,7 @@ export default function Websites() {
   return (
     <section className={styles.page}>
       <div className={styles.imageContainer}>
-        <img src={hero.src} className={styles.hero} />
+        <img src={hero.src} className={styles.hero} alt='jaguar licking paw'/>
       </div>
       <h2 className={styles.pageTitle}>Website Designs</h2>
       {!isMobile ? (

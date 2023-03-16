@@ -22,15 +22,17 @@ export default function NavBar() {
         </a>
       </div>
       <div className={styles.brandContainer}>
+      <a href="/" className={styles.linkText}>
         <h2 className={styles.brandName}>Rindee Jacquart</h2>
         {isMobile ? (
           <p className={styles.brandText}>Digital Jaguar Media</p>
-        ) : (
-          <>
+          ) : (
+            <>
             <p className={styles.brandText}>Digital Jaguar</p>
             <p className={styles.brandText}>Media</p>
           </>
         )}
+        </a>
       </div>
 
       <div className={styles.navLinks}>

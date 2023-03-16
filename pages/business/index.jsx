@@ -12,6 +12,7 @@ import colter2 from '../../assets/portfolio/ColterSm.svg';
 import kraft from '../../assets/portfolio/Kraft.svg';
 import bonj from '../../assets/portfolio/Bonj.svg';
 import divider from '../../assets/divider.svg';
+import hero from '../../assets/portfolio/jaguarBusiness.jpg'
 
 import styles from './business.module.css';
 
@@ -21,7 +22,9 @@ export default function Business() {
   return (
     <section>
       <div className={styles.imageContainerB}>
-        <div className={styles.imageTextWrapper}></div>
+        <div className={styles.imageTextWrapper}>
+          <img src={hero.src} className={styles.hero} alt='jaguar laying in the grass'/>
+        </div>
       </div>
       <h2 className={styles.pageTitle}>Business Designs</h2>
       {isMobile ? (

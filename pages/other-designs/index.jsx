@@ -9,6 +9,7 @@ import hippo from '../../assets/portfolio/hippo.svg';
 import lock from '../../assets/portfolio/lock.svg';
 import lizard from '../../assets/portfolio/lizard.svg';
 import target from '../../assets/portfolio/target.svg';
+import hero from '../../assets/portfolio/jaguarOther.jpg';
 
 import styles from './other.module.css';
 
@@ -18,7 +19,9 @@ export default function OtherDesigns() {
   return (
     <section>
       <div className={styles.imageContainerB}>
-        <div className={styles.imageTextWrapper}></div>
+        <div className={styles.imageTextWrapper}>
+          <img src={hero.src} className={styles.hero} alt='jaguar sleeping on a log'/>          
+        </div>
       </div>
       <h2 className={styles.pageTitle}>Other Designs</h2>
       <div className={styles.dividerWrapper}>
