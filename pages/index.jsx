@@ -70,7 +70,7 @@ export default function Home() {
                   className={styles.linksWebImage}
                 />
               </div>
-              <p className={styles.links}><a href="/websites">Websites</a></p>{' '}
+              <p className={styles.links}><a href="/websites" className={styles.links}>Websites</a></p>{' '}
             </div>
             <div>
               <div className={styles.logoLinksImage}>
@@ -80,7 +80,7 @@ export default function Home() {
                   className={styles.linksWebImage}
                 />
               </div>
-              <p className={styles.links}><a href="/business">Business</a></p>
+              <p className={styles.links} ><a href="/business" className={styles.links}>Business</a></p>
             </div>
             <div>
               <div className={styles.otherLinksImage}>
@@ -90,7 +90,7 @@ export default function Home() {
                   className={styles.linksWebImage}
                 />
               </div>
-              <p className={styles.links}><a href='/other-designs'>Other Designs</a></p>
+              <p className={styles.links}><a href='/other-designs' className={styles.links}>Other Designs</a></p>
             </div>
           </div>
         ) : (
