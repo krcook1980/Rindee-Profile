@@ -96,7 +96,7 @@ export default function Home() {
         ) : (
           <div className={styles.linksWrapper}>
             <div>
-              <p className={styles.links}>Websites</p>{' '}
+              <p className={styles.links}><a href="/websites" className={styles.links}>Websites</a></p>{' '}
               <div className={styles.linksImages}>
                 <img
                   src={atHome.src}
@@ -109,7 +109,7 @@ export default function Home() {
               <img src={divider.src} className={styles.divider} alt="divider" />
             </div>
             <div>
-              <p className={styles.links}>Business</p>
+              <p className={styles.links}><a href="/business" className={styles.links}>Business</a></p>
               <div className={styles.logoLinksImage}>
                 <img
                   src={BrettLogo.src}
@@ -122,7 +122,7 @@ export default function Home() {
               <img src={divider.src} className={styles.divider} alt="divider" />
             </div>
             <div>
-              <p className={styles.links}>Other Designs</p>
+              <p className={styles.links}><a href='/other-designs' className={styles.links}>Other Designs</a></p>
               <div className={styles.otherLinksImage}>
                 <img
                   src={Birds.src}

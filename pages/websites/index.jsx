@@ -4,9 +4,10 @@ import fire from '../../assets/portfolio/atmosfireHome.png';
 import fire1 from '../../assets/portfolio/atmosfireAbout.png';
 import inn from '../../assets/portfolio/innMain.svg';
 import inn1 from '../../assets/portfolio/inn1.svg';
-import peak from '../../assets/portfolio/finalPeak.png';
+import peak from '../../assets/portfolio/finalPeakHome.png';
 import peak1 from '../../assets/portfolio/peakContact.png';
 import divider from '../../assets/divider.svg';
+import hero from '../../assets/portfolio/jagWeb2.jpg'
 
 import { useIsMobile } from '../../hooks/useIsMobile';
 
@@ -17,7 +18,9 @@ export default function Websites() {
 
   return (
     <section className={styles.page}>
-      <div className={styles.imageContainer}></div>
+      <div className={styles.imageContainer}>
+        <img src={hero.src} className={styles.hero} />
+      </div>
       <h2 className={styles.pageTitle}>Website Designs</h2>
       {!isMobile ? (
         <p className={styles.subtext}>Here Are A Few Of The Websites I Have Created.</p>
@@ -38,7 +41,7 @@ export default function Websites() {
             <img
               src={fire1.src}
               alt="Atmosfire About Page"
-              className={styles.childImage}
+              className={styles.projectBottom}
             />
           </div>
           <div className={styles.dividerWrapper}>
@@ -61,7 +64,7 @@ export default function Websites() {
             <img
               src={inn1.src}
               alt="Innovative Const Other Page"
-              className={styles.childImageL}
+              className={styles.projectBottom}
             />
           </div>
           <div className={styles.dividerWrapper}>
@@ -85,7 +88,7 @@ export default function Websites() {
             <img
               src={peak1.src}
               alt="Atmosfire About Page"
-              className={styles.childImage}
+              className={styles.projectBottom}
             />
           </div>
         </div>

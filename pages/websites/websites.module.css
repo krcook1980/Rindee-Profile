@@ -6,10 +6,16 @@
 .imageContainer {
   height: 427px;
   width: 100%;
-  background: url('../../assets/portfolio/jagWeb.png');
-  background-repeat: no-repeat, no-repeat;
-  background-size: 50%;
-  background-position: top -150px right 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  top: -100px;
+}
+
+.hero{
+  width: 100%;
+  height: 150%;
 }
 
 .content {
@@ -265,10 +271,17 @@
   }
 
   .projectTop {
+    width: 100%;
     margin-bottom: 50px;
+    height: fit-content;
+  }
+
+  .projectBottom {
+    width: 100%;
   }
   
 }
+
 @media (max-width: 420px) {
   .contentWrapper {
     display: flex;
@@ -344,5 +357,38 @@
 
   .otherLinksImage {
     margin-bottom: 20px;
+  }
+
+  .projectContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  .projectContainer::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  .projectContainer::-webkit-scrollbar-track {
+    box-shadow: inset 3px 3px 3px #454646;
+  }
+  .projectContainer::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 100px;
+    height: 20px;
+    width: 10px;
+  }
+
+  .projectTop {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 50px;
+  }
+
+  .projectBottom {
+    width: 100%;
   }
 }
